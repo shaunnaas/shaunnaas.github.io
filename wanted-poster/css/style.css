@@ -90,9 +90,14 @@ h3 {
     font-weight: normal;
 }
 
-<style>
+
 h4 > span {
-    padding: 0 ; .5 rem;
+    padding-top: 0;
+    padding-right: .5rem
+    padding-bottom: 0;
+    padding-left: .5rem;
+}
+h4 {
     text-transform: uppercase
     font-size:1.5rem;
     margin: 0;
@@ -104,7 +109,7 @@ h4 > span {
     text-align:center;
     font-weight: normal;
 }
-</style>
+
 h5 {
     text-transform: uppercase
     font-size:1rem;
