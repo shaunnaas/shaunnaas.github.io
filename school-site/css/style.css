@@ -83,7 +83,7 @@ header, footer {
 @font-face {
 
     font-family:josefinslab-regular, serif;
-    src: ('C:\Users\Shaun\Documents\GitHub\shaunnaas.github.io\school-site\fonts\josefinslab-regular.ttf') format('woff2') ;
+    src: ('C:\Users\Shaun\Documents\GitHub\shaunnaas.github.io\school-site\fonts\josefinslab-regular.ttf') format('.ttf') ;
     font-weight: normal;
     font-style: normal;
 
@@ -92,14 +92,16 @@ header, footer {
 @font-face {
 
     font-family:montserrat-regular, sans-serif;
-    src: ('C:\Users\Shaun\Documents\GitHub\shaunnaas.github.io\school-site\fonts\montserrat-regular.ttf') format('woff2') ;
+    src: ('C:\Users\Shaun\Documents\GitHub\shaunnaas.github.io\school-site\fonts\montserrat-regular.ttf') format('.ttf') ;
     font-weight: normal;
     font-style: normal;
 }
 
 /* Typography Styles */
 
-html {}
+html {
+    font-family: montserrat-regular, sans-serif;
+}
 
 h1 {
     letter-spacing: .125rem;    
@@ -111,6 +113,7 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
+    font-family: josefinslab-regular, serif;
 }
 
 h2 + p {
@@ -141,7 +144,7 @@ figcaption {
 /* Link Styling */
 
 a {
-
+    
 }
 
 a:link,
