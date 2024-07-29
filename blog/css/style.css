@@ -52,11 +52,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Header and Footer Styles */
 header, footer {
-    border: 2px solid #333; /* Border for header and footer */
-    text-align: center; /* Center text in header and footer */
-    padding: 10px;
+    border: 2px solid #333; 
+    text-align: center; 
+    padding: 0.5rem;
 }
 
 footer {
@@ -65,18 +64,16 @@ footer {
     width: 100%;
 }
 
-/* Main Content Styles */
 main {
     margin: 20px;
-    padding-bottom: 60px; /* Space for footer */
+    padding-bottom: 60px; 
     display: flex;
     justify-content: space-between;
 }
 
-/* Top-Left Image */
 .image-top-left {
     float: left;
-    margin-right: 15px; /* Space between image and text */
+    margin-right: 15px; 
 }
 
 .image-top-left img {
@@ -122,9 +119,12 @@ main {
     height: auto;
 }
 
-/* Clearfix for floated elements */
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+p {
+    text-align: justify;
 }
