@@ -133,4 +133,9 @@ footer {
     color: white;
 }
 
+figure {
+    width: 50%;
+    height: auto;
+    border-radius: 5px    
+}
 
