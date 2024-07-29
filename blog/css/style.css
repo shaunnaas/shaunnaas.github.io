@@ -47,84 +47,90 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
+
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-header, footer {
-    border: 2px solid #333; 
-    text-align: center; 
-    padding: 0.5rem;
+header {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header h1 span {
+    background-color: #c00;
+    padding: 0 10px;
+    color: white;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 main {
-    margin: 20px;
-    padding-bottom: 60px; 
     display: flex;
-    justify-content: space-between;
+    padding: 20px;
 }
 
-.image-top-left {
-    float: left;
-    margin-right: 15px; 
+.content {
+    flex: 3;
+    padding-right: 20px;
 }
 
-.image-top-left img {
-    max-width: 200px; /* Adjust size as needed */
+.content article {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content img {
+    width: 100%;
     height: auto;
-    display: block;
+    border-radius: 5px;
 }
 
-/* Text Around Image */
-.text-around-image {
-    overflow: hidden;
-}
-
-.text-around-image p {
-    text-align: justify; /* Justify text to wrap around image */
-}
-
-/* Bottom Images */
-.bottom-images {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.bottom-images img {
-    max-width: 30%; /* Ensure three images fit horizontally */
-    height: auto;
-    margin: 0 5px; /* Space between images */
-    display: inline-block;
-}
-
-/* Right Images */
-.right-images {
-    border-left: 2px solid #333; /* Border separating from the left side */
+aside {
+    flex: 1;
     padding-left: 20px;
-    margin-left: 20px;
-    float: right;
 }
 
-.right-images img {
-    display: block;
-    margin-bottom: 10px; /* Space between images */
-    width: 150px; /* Adjust size as needed */
-    height: auto;
+aside section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #444;
+    color: white;
 }
 
-p {
-    text-align: justify;
-}
+
