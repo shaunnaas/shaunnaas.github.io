@@ -47,71 +47,84 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
-* {
-    box-sizing: border-box;
-}
-
-html {
-    font-size:16px;
-}
-
 body {
-    margin: 1.5rem auto;
-    width:90%;
-    min-width:56.25rem;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* Layout */
-
-main {
-    overflow:auto;
-    min-width:45rem;
-    
-}
-
-section {
-    float: left;
-    min-width: 22.5rem;
-    width:50%;
-}
-
-figure {
-    width:60%;
-    margin:0 10% 0 0;
-    float:left;
-}
-
-figure img {
-    width:100%;
-    max-width:25rem;
-}
-
-figcaption {
-    margin:.375rem 0;
-}
-
-.long-list {
-    margin-top:0;
-}
-
-nav {
-    float: left;
-    width:11.25rem;
+/* Header and Footer Styles */
+header, footer {
+    border: 2px solid #333; /* Border for header and footer */
+    text-align: center; /* Center text in header and footer */
+    padding: 10px;
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Main Content Styles */
+main {
+    margin: 20px;
+    padding-bottom: 60px; /* Space for footer */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Top-Left Image */
+.image-top-left {
+    float: left;
+    margin-right: 15px; /* Space between image and text */
+}
+
+.image-top-left img {
+    max-width: 200px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+}
+
+/* Text Around Image */
+.text-around-image {
+    overflow: hidden;
+}
+
+.text-around-image p {
+    text-align: justify; /* Justify text to wrap around image */
+}
+
+/* Bottom Images */
+.bottom-images {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bottom-images img {
+    max-width: 30%; /* Ensure three images fit horizontally */
+    height: auto;
+    margin: 0 5px; /* Space between images */
+    display: inline-block;
+}
+
+/* Right Images */
+.right-images {
+    border-left: 2px solid #333; /* Border separating from the left side */
+    padding-left: 20px;
+    margin-left: 20px;
+    float: right;
+}
+
+.right-images img {
+    display: block;
+    margin-bottom: 10px; /* Space between images */
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Clearfix for floated elements */
+.clearfix::after {
+    content: "";
+    display: table;
     clear: both;
-    margin-top:1.5rem;
 }
-
-section, aside, nav, footer {
-  padding: .5rem;
-}
-
-/* header and footer */
-
-header, footer {
-  border-top: .125rem solid #33658A;
-  border-bottom: .125rem solid #33658A;
-}
-
