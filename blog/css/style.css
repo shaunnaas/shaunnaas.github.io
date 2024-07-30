@@ -57,7 +57,7 @@ body {
 }
 
 header {
-    background-color: #1b1a1a;
+    background-color: #444;
     color: white;
     padding: 20px;
     text-align: center;
@@ -81,7 +81,22 @@ header h1 span {
     color: white;
 }
 
-main-section {
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
     display: flex;
     padding: 20px;
 }
