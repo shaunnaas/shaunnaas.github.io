@@ -57,7 +57,7 @@ body {
 }
 
 header {
-    background-color: #444;
+    background-color: #1b1a1a;
     color: white;
     padding: 20px;
     text-align: center;
@@ -81,37 +81,9 @@ header h1 span {
     color: white;
 }
 
-nav {
-    margin: 10px 0;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-main {
+main-section {
     display: flex;
     padding: 20px;
-}
-
-.content {
-    flex: 3;
-    padding-right: 20px;
-}
-
-.content article {
-    background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 aside {
