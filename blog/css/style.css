@@ -149,3 +149,14 @@ nav ul li a:hover {
     background-color: #c00;
     color: white;
 }
+
+.subsection {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
