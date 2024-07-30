@@ -160,3 +160,21 @@ nav ul li a:hover {
     background-color: #fff;
     border-radius: 10px;
 }
+
+.figure-item {
+    text-align: center; /* Center text inside the figure */
+    max-width: 200px; /* Optional: limit the width of figures */
+}
+
+.figure-item img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.figure-item figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
