@@ -49,7 +49,7 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -81,4 +81,6 @@ header h1 span {
     color: white;
 }
 
-
+p {
+    padding: 10px 0;
+}
