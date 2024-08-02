@@ -83,4 +83,9 @@ header h1 span {
 
 p {
     padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap; /* allows content to wrap if needed */
+    gap: 20px; /* space between elements */
+    align-items: flex-start; /* align items to the top */
 }
+
