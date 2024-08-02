@@ -94,11 +94,11 @@ header h1 span {
 }
 
 .nav-menu a {
-    color: #fff; /* White text color */
-    text-decoration: none; /* Remove underline */
+       text-decoration: none; /* Remove underline */
     font-size: 16px;
     padding: 10px 15px;
     border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 p {
