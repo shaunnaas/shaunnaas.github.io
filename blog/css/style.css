@@ -131,9 +131,9 @@ p {
     text-align: center;
 }
 .subsection img {
-max-width: 80%;
-height: auto;
-border-radius: 5px;
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
 }
 
 footer {
