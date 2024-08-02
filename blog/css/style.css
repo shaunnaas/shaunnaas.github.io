@@ -81,6 +81,14 @@ header h1 span {
     color: white;
 }
 
+.nav-menu {
+    list-style-type: none; /* Remove default list bullets */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center the menu */
+}
+
 p {
     overflow: hidden;
 }
@@ -97,4 +105,5 @@ p {
     height: auto;
     border-radius: 5px;
 }
+
 
