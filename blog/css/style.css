@@ -82,19 +82,19 @@ header h1 span {
 }
 
 .nav-menu {
-    list-style-type: none; /* Remove default list bullets */
+    list-style-type: none; 
     margin: 0;
     padding: 0;
-    display: flex; /* Align items horizontally */
-    justify-content: center; /* Center the menu */
+    display: flex; 
+    justify-content: center; 
 }
 
 .nav-menu li {
-    margin: 0 15px; /* Space between menu items */
+    margin: 0 15px; 
 }
 
 .nav-menu a {
-       text-decoration: none; /* Remove underline */
+    text-decoration: none; 
     font-size: 16px;
     padding: 10px 15px;
     border-radius: 5px;
@@ -106,10 +106,10 @@ p {
 }
 
 .article-image {
-    float: left; /* or right, depending on the desired placement */
-    margin-right: 20px; /* space between the image and the text */
-    margin-bottom: 10px; /* space below the image */
-    max-width: 300px; /* set max-width to avoid oversized images */
+    float: left; 
+    margin-right: 20px; 
+    margin-bottom: 10px; 
+    max-width: 300px; 
 }
 
 .article-image img {
@@ -129,4 +129,9 @@ p {
 .subsection figure {
     margin: 0 15px;
     text-align: center;
+}
+.subsection img {
+max-width: 100%;
+height: auto;
+border-radius: 5px;
 }
