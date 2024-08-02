@@ -82,10 +82,12 @@ header h1 span {
 }
 
 p {
-    padding: 10px 0;
-    display: flex;
-    flex-wrap: wrap; /* allows content to wrap if needed */
-    gap: 20px; /* space between elements */
-    align-items: flex-start; /* align items to the top */
+    overflow: hidden;
 }
 
+.article-image {
+    float: left; /* or right, depending on the desired placement */
+    margin-right: 20px; /* space between the image and the text */
+    margin-bottom: 10px; /* space below the image */
+    max-width: 300px; /* set max-width to avoid oversized images */
+}
