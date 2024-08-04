@@ -159,6 +159,13 @@ footer {
     transition: background-color 0.3s ease;
 }
 
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-left: 1px solid #ccc;
+}
+
 .aside-item {
     margin-bottom: 20px;
 }
