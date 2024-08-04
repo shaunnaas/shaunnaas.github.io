@@ -159,21 +159,22 @@ footer {
     transition: background-color 0.3s ease;
 }
 
-.aside {
+.aside-item {
     margin-bottom: 20px;
 }
 
-.aside h3 {
+.aside-item h3 {
     margin-bottom: 10px;
 }
 
-.aside img {
+.aside-item img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
 }
 
-.aside p {
+.aside-item p {
     margin-top: 10px;
 }
