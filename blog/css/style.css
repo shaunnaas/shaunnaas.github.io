@@ -57,7 +57,6 @@ body {
 }
 
 header {
-    background-color: grey;
     color: white;
     padding: 20px;
     text-align: center;
@@ -140,7 +139,7 @@ p {
 footer {
     text-align: center;
     padding: 10px 0;
-qqqqqqqqqqqqqqqqqqqqqqqqqqq}
+}
 
 .subscribe-container {
     text-align: left;
@@ -181,6 +180,7 @@ aside.right-side {
     margin-top: 10px;
     text-align: left;
     font-size: 10px;
+    border-bottom: 1px solid grey
 }
 main {
     display: flex;
