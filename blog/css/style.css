@@ -192,6 +192,7 @@ main {
     margin-left: 10px;
     text-decoration: none;
     color: #000;
-    font-size: 18px;
+    font-size: 12px;
+    line-height: 1;
 }
 
