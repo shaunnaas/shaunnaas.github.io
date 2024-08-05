@@ -170,7 +170,7 @@ aside.right-content {
 
 .aside-item {
     margin-bottom: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .aside-item img {
@@ -179,6 +179,22 @@ aside.right-content {
     border-radius: 5px;
 }
 
+.aside-item p {
+    margin-top: 10px;
+    text-align: left;
+}
 main {
     display: flex;
+}
+
+.expand {
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.expand:hover {
+    color: grey;
 }
