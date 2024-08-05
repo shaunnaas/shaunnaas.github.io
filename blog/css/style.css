@@ -182,6 +182,7 @@ aside.right-content {
 .aside-item p {
     margin-top: 10px;
     text-align: left;
+    font-size: small;
 }
 main {
     display: flex;
